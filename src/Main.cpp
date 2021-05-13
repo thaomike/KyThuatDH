@@ -13,6 +13,17 @@ double Length(Vector2i a, Vector2i b)
 	return sqrt(x * x + y * y);
 }
 
+// khi chạy:
+/*
+click lần 1: set tọa độ đầu tiên của đoạn thẳng
+click lần 2: set tọa độ điểm thứ 2
+-> sau khi click lần 2 thì đoạn thẳng hiện ra
+click lần 3: set tọa độ điểm 1 của cửa sổ
+lần 4: tọa độ 2 của cửa sổ
+-> cửa sổ hiện ra
+click 5: reset
+*/
+
 int main()
 {
 	RenderWindow window(sf::VideoMode(900, 500), "SFML-Tutorial", sf::Style::Close);

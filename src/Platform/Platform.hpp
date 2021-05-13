@@ -6,7 +6,7 @@
 #elif defined(__linux__)
 	#include "Platform/Unix/LinuxPlatform.hpp"
 #elif defined(_WIN32)
-	#include "Platform/Win32/WindowsPlatform.hpp"
+	#include "Win32/WindowsPlatform.hpp"
 #endif
 
 namespace util
