@@ -231,10 +231,10 @@ int main()
 					minX = winEnd.x;
 					maxX = winStart.x;
 				}
-				rWin.y1 = maxY;
+				rWin.y1 = minY;
 				rWin.x1 = minX;
 				rWin.x2 = maxX;
-				rWin.y2 = minY;
+				rWin.y2 = maxY;
 
 				if (CohenSutherlandClipping(posStart, posEnd, Q1, Q2, rWin) == 0)
 				{
